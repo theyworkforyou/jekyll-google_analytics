@@ -1,4 +1,4 @@
-# Jekyll::GoogleAnalytics
+# Jekyll::GoogleAnalytics [![Build Status](https://travis-ci.org/everypolitician/jekyll-google_analytics.svg?branch=master)](https://travis-ci.org/everypolitician/jekyll-google_analytics) [![Gem Version](https://badge.fury.io/rb/jekyll-google_analytics.svg)](https://badge.fury.io/rb/jekyll-google_analytics)
 
 Add Google Analytics to your Jekyll site.
 
