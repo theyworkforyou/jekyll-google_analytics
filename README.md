@@ -7,14 +7,16 @@ Add Google Analytics to your Jekyll site.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'jekyll-google_analytics'
+group :jekyll_plugins do
+  gem 'jekyll-google_analytics'
+end
 ```
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
+Or install it yourself and add it to your `_config.yml` manually.
 
     $ gem install jekyll-google_analytics
 
