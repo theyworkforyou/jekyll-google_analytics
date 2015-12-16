@@ -20,7 +20,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+First add your tracking code to `_config.yml`. You can find out your tracking code by [following these instructions](https://support.google.com/analytics/answer/1008080?hl=en#GA).
+
+```yaml
+google_analytics:
+  tracking_code: UA-99999999-9 # Replace this with your actual tracking code
+```
+
+Then add the following tag after the `<body>` tag on any pages you want to be tracked in Google Analytics. You probably want it on every page, so putting it in a shared layout is ideal.
+
+```liquid
+{% google_analytics %}
+```
 
 ## Development
 
